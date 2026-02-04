@@ -13,6 +13,7 @@
 | 8   | VsCodeReportOpenHook | Done | 2h |        |       |
 | 9   | WireCliMain | Done | 2h |        |       |
 | 10  | ModelSetupGuide | Todo | 2h |        |       |
+| 11  | DisableMockByDefault | Todo | 2h |        |       |
 
 > Codex may update **Status** column. Human owns **Actual** column.
 
