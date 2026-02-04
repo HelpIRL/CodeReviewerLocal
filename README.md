@@ -12,7 +12,7 @@ A local-first CLI that reviews a codebase with a local LLM, produces a report, a
 
 ## Quick Start
 
-1. Install and run a local model backend (Ollama recommended). See `docs/LOCAL_MODELS.md`.
+1. Install and run a local model backend and pull a model (Ollama recommended). See `docs/LOCAL_MODELS.md`.
 2. Run the review:
    ```bash
    python CodeReview.py src/ --backend ollama --model llama3 --max-depth 6 --report-dir reports --format md
