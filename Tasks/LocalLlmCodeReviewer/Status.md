@@ -10,7 +10,7 @@
 | 5   | ReviewOrchestrator | Done | 2h |        |       |
 | 6   | ReportGenerator | Done | 2h |        |       |
 | 7   | ResumeFailureState | Done | 2h |        |       |
-| 8   | VsCodeReportOpenHook | Todo | 2h |        |       |
+| 8   | VsCodeReportOpenHook | Done | 2h |        |       |
 
 > Codex may update **Status** column. Human owns **Actual** column.
 
