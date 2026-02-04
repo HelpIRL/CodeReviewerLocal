@@ -11,6 +11,8 @@
 | 6   | ReportGenerator | Done | 2h |        |       |
 | 7   | ResumeFailureState | Done | 2h |        |       |
 | 8   | VsCodeReportOpenHook | Done | 2h |        |       |
+| 9   | WireCliMain | Todo | 2h |        |       |
+| 10  | ModelSetupGuide | Todo | 2h |        |       |
 
 > Codex may update **Status** column. Human owns **Actual** column.
 
