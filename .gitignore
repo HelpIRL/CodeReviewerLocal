@@ -51,6 +51,7 @@ __pycache__/
 
 # Local reports/state
 reports/
+reports_tmp/
 
 # Logs
 *.log
