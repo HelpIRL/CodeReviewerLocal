@@ -1,5 +1,7 @@
 # Code Reviewer Local
 
+Used to test CodexTemplateV1 against OpenAI Codex (https://github.com/helpirl/CodexTemplateV1). Just a simple code reviewer using local LLM.
+
 A local-first CLI that reviews a codebase with a local LLM, produces a report, and scales to larger repos via chunking and persisted context. Designed for 16 GB GPUs and offline workflows.
 
 ## Features
