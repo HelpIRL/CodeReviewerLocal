@@ -6,7 +6,7 @@
 | 1   | DefineCliContract | Done | 2h |        |       |
 | 2   | RepoScannerIndexer | Done | 2h |        |       |
 | 3   | ChunkingContextBuilder | Done | 2h |        |       |
-| 4   | LocalLlmAdapterLayer | Todo | 2h |        |       |
+| 4   | LocalLlmAdapterLayer | Done | 2h |        |       |
 | 5   | ReviewOrchestrator | Todo | 2h |        |       |
 | 6   | ReportGenerator | Todo | 2h |        |       |
 | 7   | ResumeFailureState | Todo | 2h |        |       |
