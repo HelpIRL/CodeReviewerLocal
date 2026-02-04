@@ -11,8 +11,8 @@
 
 - **Language**: Python (3.11/3.12; choose the version compatible with selected LLM backend)
 - **Framework**: none
-- **Build**: none yet
-- **Test**: none yet
+- **Build**: none (Python)
+- **Test**: `python -m pytest`
 - **Package manager**: pip (assumed)
 
 ## Build & Test Entry Points
@@ -20,7 +20,7 @@
 These are the approved commands. Do not invent alternatives.
 
 - Build: none yet
-- Test: none yet
+- Test: `python -m pytest`
 - Lint: none yet
 
 ## Task Management
