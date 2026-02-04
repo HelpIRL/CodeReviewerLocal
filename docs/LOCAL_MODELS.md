@@ -13,6 +13,9 @@ comfortably on a 16 GB GPU.
 ## Ollama (Recommended)
 
 1. Install Ollama from the official site.
+   ```bash
+   curl -fsSL https://ollama.com/install.sh | sh
+   ```
 2. Pull a code-capable model:
    ```bash
    ollama pull llama3
@@ -22,6 +25,14 @@ comfortably on a 16 GB GPU.
 3. Run a quick test:
    ```bash
    ollama run llama3 "Explain this Python function"
+   ```
+4. Start the local server (if not already running):
+   ```bash
+   ollama serve
+   ```
+5. Verify the API is reachable:
+   ```bash
+   curl -s http://localhost:11434/api/tags
    ```
 
 ## llama.cpp

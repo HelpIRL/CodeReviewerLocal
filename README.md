@@ -210,3 +210,12 @@ Run `/template-update` periodically to get improvements without affecting your p
 ## Local Models
 
 See `docs/LOCAL_MODELS.md` for recommended local model runtimes and setup notes.
+
+## Running The CLI
+
+Example:
+```bash
+python CodeReview.py src/ --backend ollama --model llama3 --max-depth 6 --report-dir reports --format md
+```
+
+Model setup steps live in `docs/LOCAL_MODELS.md`.
