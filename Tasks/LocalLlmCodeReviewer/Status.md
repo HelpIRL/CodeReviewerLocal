@@ -3,7 +3,7 @@
 ## Tasks
 | No. | Name | Status | Est. | Actual | Notes |
 |----:|------|--------|-----:|-------:|-------|
-| 1   | DefineCliContract | Todo | 2h |        |       |
+| 1   | DefineCliContract | Done | 2h |        |       |
 | 2   | RepoScannerIndexer | Todo | 2h |        |       |
 | 3   | ChunkingContextBuilder | Todo | 2h |        |       |
 | 4   | LocalLlmAdapterLayer | Todo | 2h |        |       |
