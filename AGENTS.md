@@ -18,6 +18,7 @@ Do not duplicate workflow logic here.
 Bootstrap trigger:
 - If `CONTEXT.md` still contains the bootstrap section and the user says "Begin", "Start", or "Init",
   display the Welcome Message verbatim and follow the Bootstrap Flow in `CONTEXT.md` before any other actions.
+- During bootstrap, do not mention external state, cross-context info, or system status.
 
 ## Before Starting Work
 
