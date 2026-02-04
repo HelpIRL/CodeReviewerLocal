@@ -23,6 +23,7 @@ python CodeReview.py <target_path> [options]
 **Options**
 - `--model <name>`: Model identifier (default: `llama-3`).
 - `--backend <name>`: Backend driver (default: `auto`). Expected values: `auto`, `ollama`, `llama_cpp`, `vllm`.
+- `--allow-mock`: Allow mock backend for local dev (default: `false`).
 - `--max-depth <int>`: Max recursion depth (default: `6`).
 - `--report-dir <path>`: Output directory for reports (default: `./reports`).
 - `--context-dir <path>`: Directory for persisted context/state (default: `./.codereview`).

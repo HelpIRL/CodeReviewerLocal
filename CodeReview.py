@@ -23,6 +23,11 @@ def parse_args() -> argparse.Namespace:
         choices=["auto", "mock", "ollama", "llama_cpp", "vllm"],
         help="Backend driver",
     )
+    parser.add_argument(
+        "--allow-mock",
+        action="store_true",
+        help="Allow mock backend (dev only)",
+    )
     parser.add_argument("--max-depth", type=int, default=6, help="Max recursion depth")
     parser.add_argument("--report-dir", default="./reports", help="Report output directory")
     parser.add_argument(
@@ -48,6 +53,9 @@ def main() -> int:
     args = parse_args()
     target = Path(args.target_path).resolve()
     report_dir = Path(args.report_dir)
+    if args.backend == "mock" and not args.allow_mock:
+        raise SystemExit("Mock backend is disabled. Use --allow-mock to enable it.")
+
     adapter = resolve_adapter(args.backend, args.model)
 
     scan_result = scan_repo(target, max_depth=args.max_depth)
