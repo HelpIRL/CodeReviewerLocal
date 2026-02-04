@@ -5,6 +5,8 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Protocol
 
+from .ollama_adapter import OllamaAdapter
+
 
 @dataclass(frozen=True)
 class LlmRequest:
@@ -41,9 +43,13 @@ class MockAdapter:
 def resolve_adapter(backend: str, model: str) -> LlmAdapter:
     """Resolve adapter by backend name.
 
-    Supported: auto, mock. Other backends should be implemented later.
+    Supported: auto, mock, ollama. Other backends should be implemented later.
     """
     backend = backend.lower()
-    if backend in {"auto", "mock"}:
+    if backend == "auto":
+        backend = "ollama"
+    if backend == "mock":
         return MockAdapter(model=model, backend="mock")
+    if backend == "ollama":
+        return OllamaAdapter(model=model)
     raise ValueError(f"Unsupported backend: {backend}")
