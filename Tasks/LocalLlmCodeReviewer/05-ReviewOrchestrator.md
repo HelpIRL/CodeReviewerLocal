@@ -5,14 +5,14 @@
 **Dependencies**: Tasks 3–4
 
 ## Steps
-- [ ] Define findings schema.
-- [ ] Implement review loop.
-- [ ] Aggregate findings per file and overall.
+- [x] Define findings schema.
+- [x] Implement review loop.
+- [x] Aggregate findings per file and overall.
 
 ## Definition of Done
-- [ ] End-to-end run on a small folder produces aggregated findings.
+- [x] End-to-end run on a small folder produces aggregated findings.
 
 ## Outcome (fill after Iterate)
 - **Actual Time**:
-- **Result**:
-- **Follow-ups**:
+- **Result**: Added `src/review_orchestrator.py` with findings schema and review loop.
+- **Follow-ups**: Parse model responses into structured findings.

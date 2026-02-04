@@ -7,7 +7,7 @@
 | 2   | RepoScannerIndexer | Done | 2h |        |       |
 | 3   | ChunkingContextBuilder | Done | 2h |        |       |
 | 4   | LocalLlmAdapterLayer | Done | 2h |        |       |
-| 5   | ReviewOrchestrator | Todo | 2h |        |       |
+| 5   | ReviewOrchestrator | Done | 2h |        |       |
 | 6   | ReportGenerator | Todo | 2h |        |       |
 | 7   | ResumeFailureState | Todo | 2h |        |       |
 | 8   | VsCodeReportOpenHook | Todo | 2h |        |       |
