@@ -206,3 +206,7 @@ Run `/template-update` periodically to get improvements without affecting your p
 ---
 
 ## Task Structure Example
+
+## Local Models
+
+See `docs/LOCAL_MODELS.md` for recommended local model runtimes and setup notes.

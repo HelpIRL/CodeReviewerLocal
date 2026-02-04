@@ -5,14 +5,14 @@
 **Dependencies**: none
 
 ## Steps
-- [ ] Document recommended local model runtimes and installation steps.
-- [ ] Include example model pull commands.
-- [ ] Note hardware constraints and fallback guidance.
+- [x] Document recommended local model runtimes and installation steps.
+- [x] Include example model pull commands.
+- [x] Note hardware constraints and fallback guidance.
 
 ## Definition of Done
-- [ ] Setup guide exists and is referenced from README or docs.
+- [x] Setup guide exists and is referenced from README or docs.
 
 ## Outcome (fill after Iterate)
 - **Actual Time**:
-- **Result**:
-- **Follow-ups**:
+- **Result**: Added `docs/LOCAL_MODELS.md` and linked it from `README.md`.
+- **Follow-ups**: Fill in exact backend wiring steps once adapters are implemented.
