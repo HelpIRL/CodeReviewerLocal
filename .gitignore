@@ -41,6 +41,17 @@ Thumbs.db
 # *.o
 # *.exe
 
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local reports/state
+reports/
+
 # Logs
 *.log
 logs/
